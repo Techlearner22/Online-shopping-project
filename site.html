@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MINI PROJECT</title>
+        <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>       
+        <section class="header">           
+         <nav>
+             <a href="site.html"><img id="logo" src="http://img.tradeindia.com/images/l/logo_19118.gif" alt="LOGO"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>                    
+                     <li><a href="About.html" >HOME</a></li>
+                     <!--<li><a href="explore.html" >EXPLORE</a></li>-->
+                     <li><a href="About.html" >CONTACT US</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()" ></i>
+         <!--</nav>
+          <div class="text-box" >
+              <h1>DIGITIZED RTC</h1>
+              <p>Never think again to travel in your city</p>
+              <a class="tk" href="main.html" >Take Ticket</a>
+          </div>-->
+        </section>
+ <!-------------FOOTER----------->
+         <section class="footer">
+             <br><br>
+           <h4  > About Us </h4><br>
+          <p> We provide the best needed items for everyone with great customer service</p><br>
+          <p>customer Service</p><br>
+          <p>email:xyz6579@gmail.com<br>
+             phone Number1:7708397186<br>
+             phone Number2:9392825098</p><br>
+          <p>FAQs | Privacy policy | Terms & Conditions | Contact Us | Version 1.2.3 |
+             Copyright@2022 DigitizedRtc.in,All rights are reserved </p>
+          <br><br>
+          <p>Follow us</p>
+          <ul >
+            <li><a href="https://facebook.com/about/"><img src="https://th.bing.com/th?id=OIP.luVQRwEED51xpMYyFrpnVgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="paytm"></a></li> 
+            <li><a href="https://pay.google.com/about/"><img src="https://th.bing.com/th?id=OIP._Ujco6PWCgH_UJfPXtPafAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="phonepe"></a></li>
+            <li><a href="https://pay.google.com/about/"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAGgAaAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAABAEDBQIG/9oACAEBAAAAAPRp1AABa4lSB13zwBbTB26V9WKUE8nWijUE6CtBA9RPSoTpZhyauVpdZYD61PJr5N72VAPVLQbGOON8d5GmjVyaFShc5WrqY5BprcrhdqZdJEbtdTHM15tRLKkwEwAM6+OtAAEsbH//xAAYAQADAQEAAAAAAAAAAAAAAAAAAgMEAf/aAAoCAhADEAAAAIY5wDveL1tG7LgejPxWpLOHOV0daOUK6I5ztbnARHpLOdreUWZ6KiTGrXgCok63rbLj4B0emvZ//8QALhAAAgEDAgQEBgIDAAAAAAAAAQIDAAQRITEQEiBRE0FScRQyM0JhgSIwJHKh/9oACAEBAAE/AGYKMmmndttBRJO5/oBI2NLO676ilYOMip35nx5DpCu2yk14MvpoxyDdD0wuVcDyNE5JPFFZzhaSBE1Op7mmuI1/NfFD0ULlDuCKKxSjyNSwtHruvEHB4qpdgo3NAJBHUszSHsO3QrFTkHBqKYSjB3qeLwzkfKem1TCl+9XEnO5A2FQQiTLN8oq4iVAGUdCsVII3FHE0XuOn6UH+qcLUgxezGrhlETc3nt02bZV17GpxiZ+if6D+3C3l8N9flO9TxeKmm42o5Bweiy3k/VXX1j7DoTEsA/KYo5BweFvc8mEfbyNSwRy67HuKgthESxOTUlvHJrjB7jhZriIt6jU7hppCNs9Fi5POn7q8ULLkfcMnjHPJFsdOxpb5PuQ1LecylUGM7k1FGZXCD9nsKmcQQ6ey9NiuEZ+5qfnlnfkUkA4o2s4XJTjmooJJdhhfUaRIraM64Hme9TTGZ87DyHE6Eis1EBDDGGIGBTXcC/dn2pb+MnVCBX+PP6Gr4O39H/TQht4teRR+TUl7Eny/zNSzSTHLn2HkOI1IFXkZSYt5PqOBJY5JJPRzN3PVaRmSZey6mpYklQq1S2k0Z0HMO4o5G4/o1NRWk0p25R3NRRJCnKtf/8QAJBEAAgEDBAICAwAAAAAAAAAAAQIAEBExAxITIUFhICIzQlH/2gAIAQIBAT8AdzewrtP8NASMGI24URd2cQ6gHSicjS6v0ejCCDYy5FH+qqsCrx1ftVaur+p9RGFtrYnE1/UZCsbrSWp/EsIIyIHZfMAZzdsR23H0KEWJE5TgCDVPkAzkXwgjOzUTT3C8dAwv8dNQx7gFp//EACURAAICAQMEAQUAAAAAAAAAAAECAAMxEBIhERNBUSIgM0JSkf/aAAgBAwEBPwC20kkA9ANACcCbH/U6BmXBlT716+dK69/J4UQ3BeK1AEF9nuApdwR0aMpUkGAkYOlvwRE/sFadnxjOtvyRH1v5Kt7ErcdCjYM7Dbunj3HrKZjcUIPZ1P2VGT4hUjIIi2OuDArWnc+Ja+9uMDRhtJE75AAUQXN+QBndQYrEexnzpXVvBJliKw6nP01IHPMAAHQT/9k=" alt="Google pay"></a></li>
+             <li><a href="https://pay.google.com/about/"><img src="https://th.bing.com/th?id=OIP.XgT9d552B6R9C60Ul2yqkAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="paypal"></a></li>
+             <li><a href="https://pay.google.com/about/"><img src="https://th.bing.com/th?id=OIP.IfuhJTGsN34WQqAZIdufvQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="paypal"></a></li>
+             </ul><br>
+             <h6>Made with <sub><img id="heart" src="C:\Users\Bhavani\Downloads\heart2.jpg"></sub> by <I>hafsa & srija</h6></I>
+             <br>
+       </section>
+
+         <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right="0";
+             }
+             function hideMenu(){
+                 navLinks.style.right="-200px";
+             }
+         </script>
+    </body>
+</html>
